@@ -8,7 +8,6 @@ import wanandroid.com.javamvpdemo.mvp.model.bean.BaseResponse;
 import wanandroid.com.javamvpdemo.mvp.model.bean.HomeDataBean;
 
 
-
 public class HomePresenter extends BasePresenter<HomeContract.IView> implements HomeContract.IPresenter{
 
 
