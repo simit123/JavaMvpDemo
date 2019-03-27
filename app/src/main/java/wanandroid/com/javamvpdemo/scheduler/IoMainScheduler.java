@@ -12,7 +12,7 @@ public class IoMainScheduler<T> extends BaseScheduler<T>{
      * @param subscribeOnScheduler 观察者所在线程
      * @param observeOnScheduler   被观察者所在线程
      */
-    public IoMainScheduler(Scheduler subscribeOnScheduler, Scheduler observeOnScheduler) {
+    public <T> IoMainScheduler(Scheduler subscribeOnScheduler, Scheduler observeOnScheduler) {
         super(subscribeOnScheduler, observeOnScheduler);
     }
 }

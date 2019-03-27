@@ -13,7 +13,7 @@ import wanandroid.com.javamvpdemo.scheduler.SchedulerUtils;
 public class HomeModel {
 
     public Observable<HomeDataBean> getHomeData() {
-
+        //SchedulerUtils 一个 Utils为什么要泛型参数？？？？
         return RetrofitManager.service.getHomeData("https://www.baidu.com/").compose(SchedulerUtils.<HomeDataBean>ioToMain());
     }
 }
