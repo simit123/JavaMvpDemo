@@ -1,10 +1,8 @@
 package wanandroid.com.javamvpdemo.mvp.presenter;
 import io.reactivex.disposables.Disposable;
-import io.reactivex.functions.Consumer;
 import wanandroid.com.javamvpdemo.base.BasePresenter;
 import wanandroid.com.javamvpdemo.mvp.contract.HomeContract;
 import wanandroid.com.javamvpdemo.mvp.model.HomeModel;
-import wanandroid.com.javamvpdemo.mvp.model.bean.BaseResponse;
 import wanandroid.com.javamvpdemo.mvp.model.bean.HomeDataBean;
 import wanandroid.com.javamvpdemo.net.BaseObserver;
 
@@ -17,15 +15,15 @@ public class HomePresenter extends BasePresenter<HomeContract.IView> implements 
     @Override
     public void getHomeData() {
         checkViewAttach();//请求数据之前先检查View 是否Attached
-//        mRootViw.showLoading();//转圈圈
+        mRootView.showLoading();//转圈圈
 
 
         Disposable disposable = homeModel.getHomeData()
-                .subscribeWith(new BaseObserver<HomeDataBean>(mRootViw){
+                .subscribeWith(new BaseObserver<HomeDataBean>(mRootView){
 
                     @Override
                     public void onNext(HomeDataBean homeDataBean) {
-                        mRootViw.setData(homeDataBean);
+                        mRootView.setData(homeDataBean);
                     }
                 });
 
