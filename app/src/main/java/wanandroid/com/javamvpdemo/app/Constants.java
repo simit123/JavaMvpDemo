@@ -3,12 +3,6 @@ package wanandroid.com.javamvpdemo.app;
 
 import android.graphics.Color;
 
-
-/**
- * @author quchao
- * @date 2017/11/27
- */
-
 public class Constants {
 
     /**

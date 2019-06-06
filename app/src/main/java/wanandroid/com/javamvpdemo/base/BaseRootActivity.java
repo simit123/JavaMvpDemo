@@ -7,12 +7,6 @@ import com.airbnb.lottie.LottieAnimationView;
 
 import wanandroid.com.javamvpdemo.R;
 
-
-/**
- * @author quchao
- * @date 2018/3/30
- */
-
 /**
  * 如果Activity有数据请求的话 继承此Activity
  */
