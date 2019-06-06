@@ -10,9 +10,6 @@ import wanandroid.com.javamvpdemo.ui.MainActivity;
 import wanandroid.com.javamvpdemo.utils.ActivityCollector;
 import wanandroid.com.javamvpdemo.utils.CommonUtils;
 
-/**
- * 修改番号 INLS-NEW-201811-002 修改简介 wuy 2019/3/12 ADD
- */
 
 public abstract class BaseActivity<T extends BasePresenter> extends AbstractBaseActivity implements IBaseView{
     public void showToast(String message) {

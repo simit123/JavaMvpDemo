@@ -4,9 +4,7 @@ import android.app.Application;
 
 import wanandroid.com.javamvpdemo.utils.Preferences;
 
-/**
- * 修改番号 INLS-NEW-201811-002 修改简介 wuy 2018/12/24 ADD
- */
+
 
 public class MyApplication extends Application {
 

@@ -9,9 +9,7 @@ import butterknife.ButterKnife;
 import butterknife.Unbinder;
 import wanandroid.com.javamvpdemo.utils.ActivityCollector;
 
-/**
- * 修改番号 INLS-NEW-201811-002 修改简介 wuy 2018/12/24 ADD
- */
+
 
 public abstract class AbstractBaseActivity extends AppCompatActivity{
 

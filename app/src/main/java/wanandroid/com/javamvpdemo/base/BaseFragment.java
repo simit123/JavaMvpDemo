@@ -16,9 +16,6 @@ import butterknife.Unbinder;
 import wanandroid.com.javamvpdemo.R;
 
 
-/**
- * 修改番号 INLS-NEW-201811-002 修改简介 wuy 2019/1/22 ADD
- */
 
 public abstract class BaseFragment<T extends BasePresenter> extends Fragment implements IBaseView {
 

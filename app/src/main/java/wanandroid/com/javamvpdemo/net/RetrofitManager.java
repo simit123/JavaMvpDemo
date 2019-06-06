@@ -1,12 +1,8 @@
 package wanandroid.com.javamvpdemo.net;
 
-import android.content.Context;
-
-import java.io.File;
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
-import okhttp3.Cache;
 import okhttp3.HttpUrl;
 import okhttp3.Interceptor;
 import okhttp3.OkHttpClient;
@@ -18,9 +14,7 @@ import retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory;
 import retrofit2.converter.gson.GsonConverterFactory;
 import wanandroid.com.javamvpdemo.api.ApiService;
 
-/**
- * 修改番号 INLS-NEW-201811-002 修改简介 wuy 2018/12/20 ADD
- */
+
 
 public class RetrofitManager {
     private RetrofitManager() {

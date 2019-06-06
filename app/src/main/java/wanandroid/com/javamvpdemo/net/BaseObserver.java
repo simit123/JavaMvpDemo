@@ -10,10 +10,6 @@ import wanandroid.com.javamvpdemo.app.MyApplication;
 import wanandroid.com.javamvpdemo.base.IBaseView;
 
 /**
- * 修改番号 INLS-NEW-201811-002 修改简介 wuy 2019/3/12 ADD
- */
-
-/**
  * 封装的观察者，用于集中处理一些错误相关的东西
  */
 public abstract class BaseObserver<T> extends ResourceObserver<T> {

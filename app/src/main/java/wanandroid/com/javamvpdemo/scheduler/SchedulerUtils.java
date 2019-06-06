@@ -10,6 +10,6 @@ import io.reactivex.schedulers.Schedulers;
 public class SchedulerUtils {
 
     public  static <T> IoMainScheduler<T> ioToMain(){
-        return new IoMainScheduler(Schedulers.io(), AndroidSchedulers.mainThread());
+        return new IoMainScheduler<T>(Schedulers.io(), AndroidSchedulers.mainThread());
     }
 }
